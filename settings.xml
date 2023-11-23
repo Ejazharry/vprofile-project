@@ -16,11 +16,11 @@
     </server>
         <server>
         <id>${CENTRAL_REPO}</id>
-      <username>${NEXUS-USER}</username>
-      <password>${NEXUS-PASS}</password>
+      <username>${NEXUS_USER}</username>
+      <password>${NEXUS_PASS}</password>
     </server>
     <server>
-        <id>${NEXUS-GRP-REPO}</id>
+        <id>${NEXUS_GRP_REPO}</id>
       <username>${NEXUS_USER}</username>
       <password>${NEXUS_PASS}</password>
     </server>
