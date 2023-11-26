@@ -20,7 +20,6 @@ pipeline {
     stages {
         stage ('Build'){
             steps {
-                sh 'mvn clean install -P autoInstallPackage -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true'
                 sh 'mvn -s settings.xml -DskipTests install'
             }
         }
